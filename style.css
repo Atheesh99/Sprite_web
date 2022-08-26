@@ -1,0 +1,375 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body1{
+    width: 100%;
+    height: 90px;
+    background-color: #009b4e;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.body1 img{
+    padding: 20px;
+    padding-left: 38px; 
+}
+.text{
+    color: var(--light);
+    font-size: 14px;
+    font-family: var(--font-family);
+    margin-left: 80px;
+    font-weight: bold;
+    padding-top: 30px;
+    display: flex;
+    color: #fff; 
+}
+.text1:hover{
+    text-decoration: underline;
+    color: black;
+    text-underline-offset: 43px;
+    text-decoration-thickness: 3px;
+}
+.text2{
+    margin-left: 49px;
+}
+.text2:hover{
+    text-decoration: underline;
+    color: black;
+    text-underline-offset: 43px;
+    text-decoration-thickness: 3px;
+}
+.text3{
+    margin-left: 49px;
+}
+.text3:hover{
+    text-decoration: underline;
+    color: black;
+    text-underline-offset: 43px;
+    text-decoration-thickness: 3px;
+
+}
+.logo {
+    height: 100%;
+    display: flex;
+    margin-left: 610px;
+    margin-top: 11px;
+}
+.fb img{
+    width: 30px;
+}
+.fb{
+    
+    width: 43px;
+}
+.twitter img{
+    width: 30px;
+}    
+.twitter {
+    width: 43px;
+}      
+ .insta img{
+   width: 30px;
+ } 
+ .insta {
+    width: 43px;
+ }
+.youtube img{
+    width: 30px;
+}
+.youtube {
+    width: 43px;
+}
+.sportify{
+    width: 43px;
+
+}
+.sportify img{
+    width: 30px;
+}
+.person{
+    width: 43px;
+}
+.person img{
+    width: 30px;
+    margin-left: 20px;
+}
+.body2{
+    background-image: url(images/backgrond\ first.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 572px;
+    
+}
+.body2 h1{
+    color: #fff;
+    font-family: "FuturaBT W05 ExtraBlack Italic";
+    font-size: 56.0px;
+    line-height: 67px;
+    margin-left: 90px;
+    font-weight: bolder;
+    padding-top: 184px;
+
+}
+.body2 p{
+    color: #fff;
+    font-family: "AvenirNextLTW01-Medium";
+    margin-left: 90px;
+    font-size: 24.0px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 12px;
+
+}
+.body2 button{
+    padding: 10px 40px;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-left: 52px;
+    padding-right: 52px;
+    margin-left: 90px;
+    margin-top: 25px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #009b4e;
+}
+.body2 button:hover{
+    background-color: black;
+
+}
+
+
+.body3{
+background-color: #fff;
+width: 100%;
+height: 628px;
+
+}
+.videotext{
+    text-align: center;
+    width: 100%;
+    height: 653px;
+}
+.videotext h4{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 120px;
+    font-weight: bolder;
+    inline-size: -100;
+    color: rgb(0,0,0);
+    padding-right: 490px;
+    padding-top: 56px;
+}
+
+.videotext p{
+    color: black;
+    text-align: start;
+    margin-left: 357px;
+    padding-top: 14px;
+    font-size: 16px;
+    line-height: 17px;
+}
+.videotext video{
+    text-align: center;
+    padding-top: 53px;
+    padding-left: 50px;
+}
+
+.msg {
+    margin-left: 750px;
+
+}  
+.msg img{
+    width: 25px;
+  
+}
+.msg button{
+    background-color: #009b4e;
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+    border-color: orange;
+}
+.body4{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    
+}
+.pic{
+    margin-left: 10px;
+    width: 54%;
+    background:transparent url("images/sprite\ bottle.png") no-repeat;
+    background-size: cover;
+    
+}
+  .pic2{
+    width: 700px;
+    height: 100%;
+  }
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.pic button{
+    margin-top: 332px;
+    margin-left: 339px;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: black;
+    color: white;
+    border: 1px soild #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #fff;
+}
+
+.pic button:hover{
+    background-color: rgb(121, 119, 117);
+}
+.pic2 img{
+    width: 103%;
+    height: 100%;
+    padding-left: 15px;
+}
+.body5{
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+}
+  .body6{
+    width: 100%;
+    height: 420px;
+    background-color: #009b4e;
+}
+.body6 img{
+    margin-left: 173px;
+    margin-top: 89px;
+    width: 178px;
+  
+}
+.body6 h3{
+    margin-top: -133px;
+    color: #fff;
+    margin-left: 402px;
+}
+
+
+.logos2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    padding-left: 21px;
+    cursor: pointer;
+}
+/* .logo2 img{
+width: 10px;
+} */
+.logoWrap{
+    display: flex;
+  background-color: black;
+  height: 50px  ;
+  
+   
+}
+.logo_social img{
+   
+width: 40px;
+   
+}
+
+
+.footer{
+    width: 100%;
+    height: 455px;
+    background-color: #009b4e;
+}
+.sprite-img img{
+    padding-top: 63px;
+    padding-left: 178px;
+    width: 174px;
+}
+
+.connect{
+    margin-left: 450px;
+    margin-top: -130px;
+    color: white;
+    font-size: smaller;
+    font-family: sans-serif;
+}
+
+.social-media{
+    width: 200px;
+    display: flex;
+    margin-left: 547px;
+    margin-top: 9px;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.social-media a{
+    width: 20px;
+}
+.social-media a img:hover{
+transform:scale(1.2);
+}
+.product{
+    margin-left: 995px;
+    margin-top: -92px;
+    color: white;
+}
+.product h1{
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+    
+}
+.sprite-product{
+    margin-top: 40px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+.sprite-product a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+
+.sprite-product a:hover{
+    color: black;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 90px;
+    font-weight: bolder;
+}
+
+.help{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 387px;
+    justify-content: space-between;
+    width: 750px;
+}
+.help a{
+    color: white;
+    text-decoration: none;
+    font-family: "AvenirNextLTW01-Medium";
+    font-weight: bolder;
+}
+.help a:hover{
+    color: black;
+}
+
+
+
+
+
+    
